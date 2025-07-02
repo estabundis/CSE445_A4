@@ -2,17 +2,17 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
   <Hotel>
-    <Name>Westin</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-    <Rating>4.2</Rating>
-  </Hotel>
+  <Name>Westin</Name>
+  <Phone>480-968-8885</Phone>
+  <Phone>800-937-8461</Phone>
+  <Address NearestAirport="Sky Harbor">
+    <Number>11</Number>
+    <Street>E 7th St</Street>
+    <City>Tempe</City>
+    <State>AZ</State>
+    <Zip>85281</Zip>
+  </Address>
+  <Rating>4.2</Rating>
+</Hotel>
   <!-- …9 more hotels… -->
 </Hotels>
