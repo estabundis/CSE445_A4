@@ -7,42 +7,48 @@ namespace ConsoleApp1
 {
     public class Program
     {
-        // These three must match exactly (case‑sensitive) for the autograder to pick them up:
+        // urls for each of my instances to submit
         public static string xmlURL      = "https://estabundis.github.io/CSE445_A4/Hotels.xml";
         public static string xmlErrorURL = "https://estabundis.github.io/CSE445_A4/HotelsErrors.xml";
         public static string xsdURL      = "https://estabundis.github.io/CSE445_A4/Hotels.xsd";
 
         public static void Main(string[] args)
         {
-            // Q3: call Verification on clean and error XML, then Xml2Json
+            // VALIDATE xml
             string result = Verification(xmlURL, xsdURL);
             Console.WriteLine(result);
 
+            // validate error xml
             result = Verification(xmlErrorURL, xsdURL);
             Console.WriteLine(result);
 
+            // CONVERTS xml to JSON
             result = Xml2Json(xmlURL);
             Console.WriteLine(result);
         }
 
-        // Q2.1 – validate XML against XSD, returning “No Error” or the concatenated
-        // schema‐validation messages
+        // this function will validate XML against the XSD at url
+        // basically returns schema errors OR just no error
         public static string Verification(string xmlUrl, string xsdUrl)
         {
             try
             {
+                // instantiate/load schema
                 var schemas = new XmlSchemaSet();
                 schemas.Add(null, xsdUrl);
 
+                // reader for XSL validation
                 var settings = new XmlReaderSettings
                 {
                     ValidationType = ValidationType.Schema,
                     Schemas = schemas
                 };
 
+
                 string errors = "";
                 settings.ValidationEventHandler += (sender, e) =>
                 {
+                    // COLLECT ALL MSGS
                     errors += e.Message + Environment.NewLine;
                 };
 
@@ -59,7 +65,8 @@ namespace ConsoleApp1
             }
         }
 
-        // Q2.2 – load XML and convert it to an indented JSON string
+        // load XML and convert to an indented JSON string
+        // JSON must deserialize via JSON function
         public static string Xml2Json(string xmlUrl)
         {
             try
@@ -67,7 +74,7 @@ namespace ConsoleApp1
                 var doc = new XmlDocument();
                 doc.Load(xmlUrl);
 
-                // This must deserialize cleanly with JsonConvert.DeserializeXmlNode(jsonText)
+                // this MUST deserialize cleanly with JsonConvert.DeserializeXmlNode()
                 string jsonText = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
 
                 return jsonText;
