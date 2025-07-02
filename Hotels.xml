@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel>
+    <Name>The Plaza Hotel</Name>
+    <City>New York</City>
+    <Phone>+1-212-759-3000</Phone>
+    <Stars>5</Stars>
+    <Rate>899.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>The Ritz London</Name>
+    <City>London</City>
+    <Phone>+44-20-7300-2000</Phone>
+    <Stars>5</Stars>
+    <Rate>750.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>Marina Bay Sands</Name>
+    <City>Singapore</City>
+    <Phone>+65-6688-8888</Phone>
+    <Stars>5</Stars>
+    <Rate>650.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>Hotel de Paris Monte-Carlo</Name>
+    <City>Monte Carlo</City>
+    <Phone>+377-93-15-15-15</Phone>
+    <Stars>5</Stars>
+    <Rate>1200.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>Burj Al Arab</Name>
+    <City>Dubai</City>
+    <Phone>+971-4-301-7777</Phone>
+    <Stars>5</Stars>
+    <Rate>2000.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>The Savoy</Name>
+    <City>London</City>
+    <Phone>+44-20-7836-4343</Phone>
+    <Stars>5</Stars>
+    <Rate>790.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>Waldorf Astoria Orlando</Name>
+    <City>Orlando</City>
+    <Phone>+1-407-597-5500</Phone>
+    <Stars>5</Stars>
+    <Rate>500.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>The Peninsula Hong Kong</Name>
+    <City>Hong Kong</City>
+    <Phone>+852-2920-2888</Phone>
+    <Stars>5</Stars>
+    <Rate>900.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>Taj Mahal Palace</Name>
+    <City>Mumbai</City>
+    <Phone>+91-22-6665-3366</Phone>
+    <Stars>5</Stars>
+    <Rate>300.00</Rate>
+  </Hotel>
+  <Hotel>
+    <Name>Hotel California</Name>
+    <City>Los Angeles</City>
+    <Phone>+1-310-555-1234</Phone>
+    <Stars>4</Stars>
+    <Rate>250.00</Rate>
+  </Hotel>
+</Hotels>

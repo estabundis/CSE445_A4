@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <!-- Fault 1: Missing City -->
+  <Hotel>
+    <Name>The Plaza Hotel</Name>
+    <!-- <City>New York</City> -->
+    <Phone>+1-212-759-3000</Phone>
+    <Stars>5</Stars>
+    <Rate>899.00</Rate>
+  </Hotel>
+  <!-- Fault 2: Stars wrong type -->
+  <Hotel>
+    <Name>The Ritz London</Name>
+    <City>London</City>
+    <Phone>+44-20-7300-2000</Phone>
+    <Stars>Five</Stars>
+    <Rate>750.00</Rate>
+  </Hotel>
+  <!-- Fault 3: Rate wrong format -->
+  <Hotel>
+    <Name>Marina Bay Sands</Name>
+    <City>Singapore</City>
+    <Phone>+65-6688-8888</Phone>
+    <Stars>5</Stars>
+    <Rate>SixHundredFifty</Rate>
+  </Hotel>
+  <!-- Fault 4: Unexpected element -->
+  <Hotel>
+    <Name>Hotel de Paris Monte-Carlo</Name>
+    <City>Monte Carlo</City>
+    <Phone>+377-93-15-15-15</Phone>
+    <Stars>5</Stars>
+    <Rate>1200.00</Rate>
+    <Pool>true</Pool>
+  </Hotel>
+  <!-- Fault 5: Duplicate Name element -->
+  <Hotel>
+    <Name>Burj Al Arab</Name>
+    <Name>Burj Al Arab</Name>
+    <City>Dubai</City>
+    <Phone>+971-4-301-7777</Phone>
+    <Stars>5</Stars>
+    <Rate>2000.00</Rate>
+  </Hotel>
+</Hotels>
