@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <!-- Fault 1: Missing City -->
+  <!-- FAULT 1, Missing City -->
   <Hotel>
     <Name>The Plaza Hotel</Name>
     <!-- <City>New York</City> -->
@@ -9,7 +9,7 @@
     <Stars>5</Stars>
     <Rate>899.00</Rate>
   </Hotel>
-  <!-- Fault 2: Stars wrong type -->
+  <!-- FAULT 2 stars wrong type -->
   <Hotel>
     <Name>The Ritz London</Name>
     <City>London</City>
@@ -17,7 +17,7 @@
     <Stars>Five</Stars>
     <Rate>750.00</Rate>
   </Hotel>
-  <!-- Fault 3: Rate wrong format -->
+  <!-- FAULT 3 rate wrong format -->
   <Hotel>
     <Name>Marina Bay Sands</Name>
     <City>Singapore</City>
@@ -25,7 +25,7 @@
     <Stars>5</Stars>
     <Rate>SixHundredFifty</Rate>
   </Hotel>
-  <!-- Fault 4: Unexpected element -->
+  <!-- FAULT 4 unexpected element -->
   <Hotel>
     <Name>Hotel de Paris Monte-Carlo</Name>
     <City>Monte Carlo</City>
@@ -34,7 +34,7 @@
     <Rate>1200.00</Rate>
     <Pool>true</Pool>
   </Hotel>
-  <!-- Fault 5: Duplicate Name element -->
+  <!-- FAULT 5 duplicate 'Name' element -->
   <Hotel>
     <Name>Burj Al Arab</Name>
     <Name>Burj Al Arab</Name>
