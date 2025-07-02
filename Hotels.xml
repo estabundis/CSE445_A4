@@ -1,18 +1,139 @@
-<!-- Hotels.xml -->
+<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- === Content Test 2 from pdf === -->
   <Hotel>
-  <Name>Westin</Name>
-  <Phone>480-968-8885</Phone>
-  <Phone>800-937-8461</Phone>
-  <Address NearestAirport="Sky Harbor">
-    <Number>11</Number>
-    <Street>E 7th St</Street>
-    <City>Tempe</City>
-    <State>AZ</State>
-    <Zip>85281</Zip>
-  </Address>
-  <Rating>4.2</Rating>
-</Hotel>
-  <!-- …9 more hotels… -->
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+    <Rating>4.2</Rating>
+  </Hotel>
+
+  <!-- === Nine more random real-world hotels === -->
+  <Hotel>
+    <Name>The Plaza Hotel</Name>
+    <Phone>+1-212-759-3000</Phone>
+    <Address NearestAirport="JFK">
+      <Number>768</Number>
+      <Street>5th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Ritz London</Name>
+    <Phone>+44-20-7300-2000</Phone>
+    <Address NearestAirport="Heathrow">
+      <Number>150</Number>
+      <Street>Piccadilly</Street>
+      <City>London</City>
+      <State>England</State>
+      <Zip>W1J 9BR</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Marina Bay Sands</Name>
+    <Phone>+65-6688-8888</Phone>
+    <Address NearestAirport="Changi">
+      <Number>10</Number>
+      <Street>Bayfront Ave</Street>
+      <City>Singapore</City>
+      <State>Singapore</State>
+      <Zip>018956</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hotel de Paris Monte-Carlo</Name>
+    <Phone>+377-93-15-15-15</Phone>
+    <Address NearestAirport="Nice Côte d’Azur">
+      <Number>Place du Casino</Number>
+      <Street>Square Nouvelle</Street>
+      <City>Monte-Carlo</City>
+      <State>Monaco</State>
+      <Zip>98000</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Burj Al Arab</Name>
+    <Phone>+971-4-301-7777</Phone>
+    <Address NearestAirport="Dubai International">
+      <Number>Jumeirah St</Number>
+      <Street>Jumeirah Beach</Street>
+      <City>Dubai</City>
+      <State>Dubai</State>
+      <Zip>74133</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Savoy</Name>
+    <Phone>+44-20-7836-4343</Phone>
+    <Address NearestAirport="Heathrow">
+      <Number>Strand</Number>
+      <Street>Strand</Street>
+      <City>London</City>
+      <State>England</State>
+      <Zip>WC2R 0EZ</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Waldorf Astoria Orlando</Name>
+    <Phone>+1-407-597-5500</Phone>
+    <Address NearestAirport="Orlando International">
+      <Number>14200</Number>
+      <Street>Bonnet Creek Resort Ln</Street>
+      <City>Orlando</City>
+      <State>FL</State>
+      <Zip>32821</Zip>
+    </Address>
+    <Rating>4.5</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>The Peninsula Hong Kong</Name>
+    <Phone>+852-2920-2888</Phone>
+    <Address NearestAirport="Chek Lap Kok">
+      <Number>Salisbury Rd</Number>
+      <Street>Salisbury Rd</Street>
+      <City>Hong Kong</City>
+      <State>Hong Kong</State>
+      <Zip>999077</Zip>
+    </Address>
+    <Rating>5.0</Rating>
+  </Hotel>
+
+  <Hotel>
+    <Name>Taj Mahal Palace</Name>
+    <Phone>+91-22-6665-3366</Phone>
+    <Address NearestAirport="Chhatrapati Shivaji">
+      <Number>Apollo Bunder</Number>
+      <Street>Colaba</Street>
+      <City>Mumbai</City>
+      <State>Maharashtra</State>
+      <Zip>400001</Zip>
+    </Address>
+    <Rating>4.8</Rating>
+  </Hotel>
+
 </Hotels>
+
