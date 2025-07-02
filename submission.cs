@@ -68,7 +68,8 @@ namespace ConsoleApp1
                 doc.Load(xmlUrl);
 
                 // This must deserialize cleanly with JsonConvert.DeserializeXmlNode(jsonText)
-                string jsonText = JsonConvert.SerializeXmlNode(doc, Formatting.Indented);
+                string jsonText = JsonConvert.SerializeXmlNode(doc, Newtonsoft.Json.Formatting.Indented);
+
                 return jsonText;
             }
             catch (Exception ex)
